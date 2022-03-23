@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         // monts: ['Montserrat', 'sans-serif'],
         // roboto: ['Roboto', 'sans-serif'],
+        // font-family: 'Exo 2', sans-serif;
+        exp2:['Exo 2', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },
     },
