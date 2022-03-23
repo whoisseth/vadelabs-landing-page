@@ -9,8 +9,8 @@ function Navbar() {
               </a>
               </Link>
           <div className=" space-x-4 text-lg  " >
-              <a href="#" className="hover:text-blue-400" >Skip the hassle</a>
-              <a href="#" className="hover:text-blue-400" >Cruise through backend</a>
+              <a href="#hassle" className="hover:text-blue-400" >Skip the hassle</a>
+              <a href="#backend" className="hover:text-blue-400" >Cruise through backend</a>
           </div>
           <button className="text-white  text-[22px] font-medium  bg-[#2C4BFF] px-7 py-3 rounded-xl  ">Get Early Access</button>
 

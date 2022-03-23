@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function CruiseThroughBackend() {
   return (
-    <div className=" text-center ">
+    <div className=" text-center  " id='backend'>
       <h1 className="mt-[203px] mb-[123px]  text-[56px] font-semibold">
         <span className="text-[#2C4BFF]">Cruise</span> through backend
       </h1>

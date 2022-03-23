@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function SkipHassle() {
   return (
-    <div className="mx-auto text-center  mt-[109px]   ">
+    <div className="mx-auto text-center  mt-[109px] " id='hassle'>
       <h1 className="text-[56px] font-semibold mb-[111px]">
         <span className="text-[#2C4BFF]">Skip</span> the hassle.
       </h1>
