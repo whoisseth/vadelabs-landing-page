@@ -6,9 +6,10 @@ import { FaShare } from 'react-icons/fa'
 
 function HeroSection() {
   return (
-    <div className="relative   h-[1028px] overflow-hidden ">
+    <div className="relative   h-[1028px] overflow-hidden  ">
       <div className="absolute -top-10 -z-10  h-full  w-full ">
-        <Image
+              <Image
+                  className='bg-gray-100'
           src="/Images/HeroSection/dots.png"
           layout="fill"
           objectFit="cover"
@@ -63,9 +64,9 @@ function RightImage() {
         </div>
         <div className="hero-rightSide-blur absolute right-0 top-0 mt-9 h-[calc(620px-75px)]  w-[610px] rounded-tl-[60px] rounded-bl-[60px]">
           <div className="mt-10 ml-[52px] flex gap-3 text-lg">
-            <BiFullscreen className="cursor-pointer" />{' '}
-            <IoMdSettings className="cursor-pointer" />{' '}
-            <ImVolumeMute2 className="cursor-pointer" />{' '}
+            <BiFullscreen className="cursor-pointer" />
+            <IoMdSettings className="cursor-pointer" />
+            <ImVolumeMute2 className="cursor-pointer" />
             <FaShare className="cursor-pointer" />
           </div>
           <div className="absolute top-1/2 left-1/2  h-14 w-24 cursor-pointer   ">
@@ -82,7 +83,9 @@ function RightImage() {
               objectFit="contain"
             />
           </div>
-          <h1 className="font-exp2 text-2xl font-extrabold absolute bottom-16 left-24">TAKE A TOUR</h1>
+          <h1 className="absolute bottom-16 left-24 font-exp2 text-2xl font-extrabold">
+            TAKE A TOUR
+          </h1>
         </div>
       </div>
     </div>
