@@ -1,18 +1,18 @@
 import Image from 'next/image'
 export default function CruiseThroughBackend() {
   return (
-    <div className=" text-center  " id='backend'>
-      <h1 className="mt-[203px] mb-[123px]  text-[56px] font-semibold">
-        <span className="text-[#2C4BFF]">Cruise</span> through backend
-      </h1>
-          <main className="mb-[168px] relative ">
-              <img src="/Images/Backend/curveLine1.svg"  className=' w-[413px] absolute left-[33rem] top-[20rem] z-50' alt="" />
-              <img src="/Images/Backend/curveLine2.svg"  className='  absolute left-[26rem] bottom-[20rem] z-50' alt="" />
-        <Option1 />
-        <Option2/>
-        <Option3 />
-      </main>
-    </div>
+      <div className=" text-center max-w-[1440px] mx-auto  " id='backend'>
+        <h1 className="mt-[203px] mb-[123px]  text-[56px] font-semibold">
+          <span className="text-[#2C4BFF]">Cruise</span> through backend
+        </h1>
+            <main className="mb-[168px] relative ">
+                <img src="/Images/Backend/curveLine1.svg"  className=' w-[413px] absolute left-[33rem] top-[20rem] z-50' alt="" />
+                <img src="/Images/Backend/curveLine2.svg"  className='  absolute left-[26rem] bottom-[20rem] z-50' alt="" />
+          <Option1 />
+          <Option2/>
+          <Option3 />
+        </main>
+   </div>
   )
 }
 
@@ -42,7 +42,7 @@ function Option1() {
         </p>
       </div>
       {/* right Image */}
-      <div className="relative  mr-[120px] h-[333px] w-[534px] overflow-hidden rounded-2xl">
+      <div className="relative  mr-[120px] h-[333px] w-[534px] overflow-hidden rounded-2xl  ">
         <Image
           src="/Images/Backend/first.png"
           layout="fill"

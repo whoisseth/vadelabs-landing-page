@@ -4,6 +4,7 @@ import Footer from './../components/Footer'
 import HeroSection from './../components/HeroSection'
 import SkipHassle from './../components/SkipHassle'
 import CruiseThroughBackend from './../components/CruiseThroughBackend'
+import EmailBox from './../components/EmailBox'
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -13,7 +14,7 @@ const scrollToTop = () => {
 }
 const Home = () => {
   return (
-    <div className="mx-auto  max-w-[1440px] font-poppins ">
+    <div className="mx-auto   font-poppins ">
       <Head>
         <title>Vadelabs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -21,7 +22,8 @@ const Home = () => {
           @import
           url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
           @import
-          url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;800&display=swap');
+          uimport EmailBox from './../components/EmailBox';
+rl('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;800&display=swap');
         </style>
       </Head>
       <Navbar />
@@ -74,16 +76,7 @@ function ParaWithEmail() {
         that could <span className="bg-[#eccb65]">change the world.</span>
       </p>
       {/* input mail  */}
-      <div className="mx-auto  flex  h-[60px] w-[512px] justify-center overflow-hidden rounded-xl border-[1px] border-[#2C4BFF] bg-white">
-        <input
-          type="email"
-          placeholder="email@example.com"
-          className="h-full w-[289px] px-5 text-lg  outline-none  "
-        />
-        <button className="h-full w-[223px] bg-[#2C4BFF] text-[22px] font-medium text-white  ">
-          Get Early Access
-        </button>
-      </div>
+     <EmailBox/>
       {/* scroll to  top arrow */}
       <div
         onClick={() => scrollToTop()}
